@@ -14,26 +14,18 @@ a.btn {
   transition: 0.4s;
 }
 
-nav a {
-  transition: 0.4s;
-}
-
-nav a:hover {
-  transform: scale(1.3);
-}
-
-.nav-link:hover {
-  transform: scale(1.3);
-}
-
-.nav-link {
-  transition: 0.4s;
-}
-
+.navbar-brand,
+.nav-link,
 .link-secondary {
-  transition: 0.4s;
+  display: inline-block;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+  transform-origin: left center;
 }
 
+.navbar-brand:hover,
+.nav-link:hover,
 .link-secondary:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
